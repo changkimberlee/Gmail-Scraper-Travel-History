@@ -1,7 +1,7 @@
 # gmail_scrape_travelhistory
-This is a quick little tool (and Python + Jupyter Notebook practice) that scrapes Gmail for flight itineraries to combile your travel history! I created this to help me complete my US citizenship application, which required you to list the past 5 years of travel history abroud. As a frequent traveler this was extremely hard to recall (let alone accurately for a naturalization app)! 
+This is a quick little tool (and Python + Jupyter Notebook practice) that scrapes Gmail for flight itineraries to compile a travel history! I created this to help complete my US citizenship application, which requires you to list the past 5 years of travel history abroad. As a frequent traveler (work in international development) this was extremely hard to recall (let alone list accurately for a naturalization app)! 
 
-This tool scrapes my gmail for emails in the past 5 years that contains certain keywords ("flight" AND ("itinerary" OR "reservation" OR "confirmation").  You can edit time range and keywords to fit your need (Search "EDIT HERE"). 
+This tool scrapes my Gmail for emails in the past 5 years that contains certain keywords (("flight" OR "trip" OR "booking) AND ("itinerary" OR "reservation" OR "confirmation").  You can edit time range and keywords to fit your need (Search "EDIT HERE" to find the lines to edit). 
 
 It outputs a CSV called "email_output.csv" that contains the following fields: "Email ID", "Subject", "Sender" (Email Address), "Date", "Dates in Body", "Countries in Body", "Airport Codes". This spreadsheet can help you sift through your memory easier and get the exact dates of travel.
 
